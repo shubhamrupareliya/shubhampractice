@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    body{
+        padding:0;
+        margin: 0;        
+    }
+    ul{
+        background-color: #f1f1f1;
+        position: relative;
+        margin-top: 0px;
+        padding: 10px;
+        overflow: hidden;
+    }
+    li{
+        display: inline; 
+    }
+    a{
+        
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        padding: 25px;
+    }
+    a.active{
+        background-color: #555;
+        color: white;
+    }
+    a:hover{
+        background-color: #555;
+        color: white;
+    }
+    h3{
+        font-size: 34px;
+        margin-left: 15px;  
+   }
+   p{
+        margin-left: 15px;  
+        font-size: 22px;
+   }
+   i{
+         margin-left: 15px;  
+         display: inline-block;
+         color: #555;
+   }
+   span{
+        display: inline-block;
+        margin-left: 20px;
+        font-size: 18px;
+   }
+   input[type=text],
+   input[type=email]{
+        width: 95%;
+        margin-left: 15px;
+        padding: 20px;
+   }
+   input[type=button]{
+        margin-left: 15px;
+        padding: 20px;
+        font-size: 15px;
+        border: none;
+        background-color: #f1f1f1;
+        color: black;
+   }
+   input[type=button]:hover{
+        color: white;
+        background-color: #555;
+        cursor:pointer;
+   }
+   input::placeholder{
+        font-size: 20px;
+   }
+   .top{
+        background-color: #f1f1f1;
+        margin-left: 15px;
+        margin-right: 16px;
+        margin-bottom: 15px;
+        padding: 7px;
+   }
+</style>
+<body>
+    <ul>
+        <li ><a href="home.html" >Home</a></li>
+        <li><a href="rooms.html" >Rooms</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="blog.html">Blog</a></li>
+
+    </ul>
+    <h3>Contact</h3>
+    <div class="top">
+        <p>If you have any questions, do not hesitate to ask them.</p>
+        <i class="fa fa-map-marker" style="font-size:20px;"></i>
+        <span>Chicago,US</span><br><br>
+        <i class="fa fa-phone"></i>
+        <span>Phone: +00 151515</span><br><br>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <span>Email: mail@mail.com</span><br><br>
+    </div>
+    <input type="text" placeholder="Name"><br><br>
+    <input type="email" placeholder="Email"><br><br>
+    <input type="text" placeholder="Massage"><br><br>
+    <input type="button" value="SEND MASSAGE">
+
+</body>
+</html>
